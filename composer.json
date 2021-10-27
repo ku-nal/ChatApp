@@ -1,9 +1,5 @@
 {
     "require": {
         "aws/aws-sdk-php": "^3.199"
-    },
-     "post-install-cmd": {
-     ["php artisan clear-compiled",
-     "chmod -R 777 public/"]
-     }
+    }
 }

@@ -48,8 +48,8 @@ if(isset($_SESSION['unique_id'])){
         <div class="link">Already signed up? <a href="login.php">Login now</a></div>
       </section>
     </div>
-    <script src="javascript/pass-show-hide.js"></script>
-    <script src="javascript/signup.js"></script>
+    <script src="Javascript/pass-show-hide.js"></script>
+    <script src="Javascript/signup.js"></script>
     </body> 
 </html>
             

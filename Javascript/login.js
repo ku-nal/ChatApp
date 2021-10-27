@@ -9,7 +9,7 @@ form.onsubmit = (e)=>{
 continueBtn.onclick = ()=>{
   console.log("Hello");
     let xhr = new XMLHttpRequest();    // XML Object
-    xhr.open("POST", "php/login.php", true);
+    xhr.open("POST", "../php/login.php", true);
     xhr.onload = ()=>{
       if(xhr.readyState === XMLHttpRequest.DONE){
           if(xhr.status === 200){
